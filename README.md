@@ -1,6 +1,6 @@
 # Comp Sci 2
 Saving Exercises for Comp Sci 2 MHS
-## Assignments
+## Assignments (All exercises are located in exercise folder)
 - Exercise 1: [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
   - Write a program that displays a random number from 1 to 10, then ask for a number to be input. Evaluate the two numbers and display the product of them. For example, if the random number is 6 and the number input (SCANNED) is 10 then the answer displayed is 60
 - Exercise 2: [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details)
