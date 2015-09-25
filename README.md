@@ -16,3 +16,5 @@ Display the SQUARE ROOT of the sum of all 5 numbers
   - You can use JoptionPane or Scanner to do the following: Read in a person's FIRST NAME , BIRTHDAY(MONTH AND YEAR). Then using the current Month and Year determine if theperson is OVER 18 years old. Diaplay a result, for Example if they enter SallyJoeBob 09 2000 you display: SallyJoeBob, you are NOT over 18 years old 
 - Exercise 5: [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details)
   - Read in a String and determine the following: TOTAL number of letters, If it starts with a Vowel, Total number of numbers in the string. EX? Apple123 8 letters, YES, 3
+- Exercise 6: [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details)
+  - Accept a month day and year of birth. Get the current date and determine a persons full age as in YEARS plus days old. FOr Example, if a person was born on 9-26-2000 and it is currently 9-27-2015 that person is 14 years and 364 days old.   
