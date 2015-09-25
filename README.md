@@ -1,7 +1,7 @@
 # Comp Sci 2
 Saving Exercises for Comp Sci 2 MHS
 ## Assignments (All exercises are located in exercise folder)
-- [Exercise 1](https://github.com/Nikolay-Pomytkin/cs2/blob/master/exercises/ex1.java): [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
+- [Exercise 1](exercises/ex1.java): [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
   - Write a program that displays a random number from 1 to 10, then ask for a number to be input. Evaluate the two numbers and display the product of them. For example, if the random number is 6 and the number input (SCANNED) is 10 then the answer displayed is 60
 - [Exercise 2](https://github.com/Nikolay-Pomytkin/cs2/blob/master/exercises/ex2.java): [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details)
   - Read in a series of 5 numbers 
