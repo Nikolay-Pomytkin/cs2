@@ -17,4 +17,4 @@ Display the SQUARE ROOT of the sum of all 5 numbers
 - [Exercise 5](exercises/ex5.java): [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details)
   - Read in a String and determine the following: TOTAL number of letters, If it starts with a Vowel, Total number of numbers in the string. EX? Apple123 8 letters, YES, 3
 - [Exercise 6](exercises/ex6.java): [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details)
-  - Accept a month day and year of birth. Get the current date and determine a persons full age as in YEARS plus days old. For Example, if a person was born on 9-26-2000 and it is currently 9-27-2015 that person is 14 years and 364 days old.   
+  - Accept a month day and year of birth. Get the current date and determine a persons full age as in YEARS plus days old. Ex., if a person was born on 9-26-2000 and it is currently 9-27-2015 that person is 14 years and 364 days old.   
