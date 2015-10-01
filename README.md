@@ -1,10 +1,10 @@
 # Comp Sci 2
 Saving Exercises for Comp Sci 2 MHS
 ### Labs and Exercises
-- [Lab 1]() : Library Fine
+- [Lab 1](labs/src/Lab1.java) : Library Fine
   - Write a Java Application that reads in a persons full name (First Middle and Last) 
 along with the fines they owe on 10 books.
-- [Lab 2]() : Characters and ASCII values
+- [Lab 2](labs/src/Labs2.java) : Characters and ASCII values
   - Write a Java application that reads in FIVE characters and displays themCombined along with their total ASCII value. Also display on a separate line the last character entered along with its ASCII Value.
 - [Exercise 1](exercises/ex1.java): [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
   - Write a program that displays a random number from 1 to 10, then ask for a number to be input. Evaluate the two numbers and display the product of them. For example, if the random number is 6 and the number input (SCANNED) is 10 then the answer displayed is 60
