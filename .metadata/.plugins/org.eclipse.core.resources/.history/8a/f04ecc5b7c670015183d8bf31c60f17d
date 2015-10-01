@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Labs2 {
+	// Nikolay Pomytkin
+	// Lab #2
+	// September 30 2015
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("");
+		String c1 = scan.next();
+	}
+
+}

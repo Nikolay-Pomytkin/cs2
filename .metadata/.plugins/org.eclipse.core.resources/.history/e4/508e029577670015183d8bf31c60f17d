@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+// Nikolay Pomytkin
+// Lab #1
+// September 29 2015
+public class Lab1 {
+
+	private static Scanner scan;
+
+	public static void main(String[] args) {
+		String firstname  = JOptionPane.showInputDialog(null, "Please Enter Your First Name: ");
+		String middlename = JOptionPane.showInputDialog(null, "Please Enter Your Middle Name: ");
+		String lastname = JOptionPane.showInputDialog(null, "Please Enter Your Last Name: ");
+		double [] dfines = new double[10];
+		double totalfine = 0;
+		scan = new Scanner(System.in);
+		for (int i = 0; i < dfines.length; i++) {
+			dfines[i] = scan.nextDouble();
+			totalfine = totalfine + dfines[i];
+		}
+        double smallest = dfines[0];
+        double largest = dfines[0];
+        for(int i=1; i< dfines.length; i++)
+        {
+                if(dfines[i] > largest)
+               	{
+                	largest = dfines[i];
+                }
+                else if (dfines[i] < smallest)
+                {
+                    smallest = dfines[i];
+                }     
+        }
+		System.out.println(firstname + " " + middlename + " " + lastname + ", Your total fine is " + totalfine + "\n" + "Your smallest fine is: " + smallest + " and your largest fine is: " + largest + ".");	
+	}
+
+}
