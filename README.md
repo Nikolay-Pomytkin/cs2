@@ -6,7 +6,7 @@ Saving Exercises for Comp Sci 2 MHS
 along with the fines they owe on 10 books.
 - [Lab 2]() : Characters and ASCII values
   - Write a Java application that reads in FIVE characters and displays themCombined along with their total ASCII value. Also display on a separate line the last character entered along with its ASCII Value.
-### Exercises (All exercises are located in exercise folder)
+#### Exercises (All exercises are located in exercise folder)
 - [Exercise 1](exercises/ex1.java): [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
   - Write a program that displays a random number from 1 to 10, then ask for a number to be input. Evaluate the two numbers and display the product of them. For example, if the random number is 6 and the number input (SCANNED) is 10 then the answer displayed is 60
 - [Exercise 2](exercises/ex2.java): [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details)
