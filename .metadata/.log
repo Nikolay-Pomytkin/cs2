@@ -3601,3 +3601,6 @@ java.lang.Exception: Stack Trace
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui.monitoring 2 0 2015-10-01 09:58:24.038
+!MESSAGE UI freeze of 0.53s at 09:58:23.507
