@@ -13,11 +13,11 @@ public class ex8 {
 			System.out.println("Enter person " + (i+1) + "'s stride width in inches:");
 			int stride = scan.nextInt();
 			speed[i] = speed(height, weight, stride);
-			System.out.println("Person " + (i+1) + "'s speed is: " + speed[i] + " miles an hour");
+			System.out.println("Person " + (i+1) + "'s speed is: " + speed[i] + "miles an hour");
 		}
 	}
 	public static double speed(int h, int w, int s){
-		double z = (2 * (h * 3 - w) * s )/ 300;
+		double z = (2 * (h * 3 - w) * s )/ 100;
 		return z;
 	}
 

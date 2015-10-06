@@ -6,18 +6,18 @@ public class ex8 {
 		Scanner scan = new Scanner(System.in);
 		double [] speed = new double [5];
 		for(int i = 0; i<speed.length; i++ ){
-			System.out.println("Enter person " + (i+1) + "'s height in inches:");
+			System.out.println("Enter person" + i + "'s height in inches:");
 			int height = scan.nextInt();
-			System.out.println("Enter person " + (i+1) + "'s weight in pounds:");
+			System.out.println("Enter person" + i + "'s weight in pounds:");
 			int weight = scan.nextInt();
-			System.out.println("Enter person " + (i+1) + "'s stride width in inches:");
+			System.out.println("Enter person" + i + "'s stride width in inches:");
 			int stride = scan.nextInt();
 			speed[i] = speed(height, weight, stride);
-			System.out.println("Person " + (i+1) + "'s speed is: " + speed[i] + " miles an hour");
+			System.out.println("Person" + i + "'s speed is: " + speed+ "miles an hour");
 		}
 	}
 	public static double speed(int h, int w, int s){
-		double z = (2 * (h * 3 - w) * s )/ 300;
+		double z = (2 * (h * 3 - w) * s )/ 100;
 		return z;
 	}
 
