@@ -17,7 +17,7 @@ public class ex8 {
 			int stride = scan.nextInt();
 			speed[i] = speed(height, weight, stride);
 			System.out.println("Person " + (i+1) + "'s speed is: " + speed[i] + " miles an hour");
-			System.out.println("The winner of the race is: person #" + racewinner(speed));
+			System.out.println("The winner of the race is: " + racewinner(speed));
 		}
 		
 	}

@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class ex8 {
@@ -17,20 +16,17 @@ public class ex8 {
 			int stride = scan.nextInt();
 			speed[i] = speed(height, weight, stride);
 			System.out.println("Person " + (i+1) + "'s speed is: " + speed[i] + " miles an hour");
-			System.out.println("The winner of the race is: person #" + racewinner(speed));
 		}
-		
 	}
 	public static double speed(int h, int w, int s)
 	{
 		double z = (2 * (h * 3 - w) * s )/ 300;
 		return z;
 	}
-	public static int racewinner(double [] array)
+	public static int racewinner(int p1, int p2, int p3, int p4, int p5)
 	{
-	    int rnd = new Random().nextInt(array.length);
-		return rnd;
-
+		int frog = 0;
+		return frog;
 	}
 
 }
