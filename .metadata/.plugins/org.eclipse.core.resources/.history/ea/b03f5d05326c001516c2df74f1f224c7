@@ -15,17 +15,15 @@ public class ex8 {
 			int weight = scan.nextInt();
 			System.out.println("Enter person " + (i+1) + "'s stride width in inches:");
 			int stride = scan.nextInt();
-			System.out.println("Enter person " + (i+1) + "'s age in years:");
-			int age = scan.nextInt();
-			speed[i] = speed(height, weight, stride, age);
+			speed[i] = speed(height, weight, stride);
 			System.out.println("Person " + (i+1) + "'s speed is: " + speed[i] + " miles an hour");
 			System.out.println("The winner of the race is: person #" + racewinner(speed));
 		}
 		
 	}
-	public static double speed(int h, int w, int s, int a)
+	public static double speed(int h, int w, int s)
 	{
-		double z = (2 * (h * 3 - w)/a * s )/ 200;
+		double z = (2 * (h * 3 - w) * s )/ 300;
 		return z;
 	}
 	public static int racewinner(double [] array)

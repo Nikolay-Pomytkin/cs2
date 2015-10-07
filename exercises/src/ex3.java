@@ -1,10 +1,9 @@
 //Nikolay Pomytkin
 //9/17/2015
-package noscannernoprintln.ex3;
 
 import javax.swing.JOptionPane;
 
-public class NoScannerNoPrintlnEx3 
+public class ex3 
 {
     public static void main(String[] args)
     {

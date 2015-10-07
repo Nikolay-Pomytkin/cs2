@@ -1,9 +1,7 @@
-package joptionpane.birthday.ex4;
-
 import java.util.Calendar;
 import javax.swing.JOptionPane;
 
-public class JOptionPaneBirthdayEx4 
+public class ex4 
 {
  
     public static void main(String[] args)

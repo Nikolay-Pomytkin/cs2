@@ -25,7 +25,7 @@ public class ex8 {
 	}
 	public static double speed(int h, int w, int s, int a)
 	{
-		double z = (2 * (h * 3 - w)/a * s )/ 200;
+		double z = (2 * (h * 3 - w)/a * s )/ 300;
 		return z;
 	}
 	public static int racewinner(double [] array)

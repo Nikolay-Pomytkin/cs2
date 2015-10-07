@@ -1,8 +1,7 @@
-package vowel.ex4;
 
 import javax.swing.JOptionPane;
 
-public class VowelEx4 {
+public class ex5 {
 
     public static void main(String[] args) {
         String name = JOptionPane.showInputDialog(null, "Enter a string:");

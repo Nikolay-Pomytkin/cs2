@@ -1,4 +1,3 @@
-package exercises;
 
 import java.util.Calendar;
 
