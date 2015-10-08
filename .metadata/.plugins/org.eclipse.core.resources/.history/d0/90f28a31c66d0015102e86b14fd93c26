@@ -15,11 +15,11 @@ public class ex9 {
 			int cmonth = scan.nextInt();
 			System.out.println("Enter the current days: (DD)");
 			int cdays = scan.nextInt();
-			System.out.println("The julian date for today is: " + DateConvert(cdays, cmonth, cyear));	
+			int juliandate = DateConvert(cdays, cmonth, cyear);
+			System.out.println("The julian date for today is: " + juliandate);	
 		} else if (question == 2) {
 			System.out.println("Enter the julian date: (YYYYDDD)");
-			int juliandate = scan.nextInt();
-			System.out.println("The normal date for today is : " + DateFromJulian(juliandate));
+			
 		} else if (question == 3){
 			
 		}
@@ -32,7 +32,7 @@ public class ex9 {
 		int f = Integer.parseInt(z);
 		return f;
 	}
-	public static int DateFromJulian (int date){
+	public static int DateFromJulian (int year, int days){
 		int f = 0;
 		return f;
 	}
