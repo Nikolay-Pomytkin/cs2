@@ -21,11 +21,7 @@ public class ex9 {
 			int juliandate = scan.nextInt();
 			System.out.println("The normal date for today is : " + DateFromJulian(juliandate));
 		} else if (question == 3){
-			System.out.println("Enter the first date:");
-			int firstdate = scan.nextInt();
-			System.out.println("Enter the second date:");
-			int seconddate = scan.nextInt();
-			System.out.println("There are " + daysinbetween(firstdate, seconddate) + " days in between "+ seconddate + " and " + firstdate);
+			
 		}
 
 	}
@@ -37,10 +33,6 @@ public class ex9 {
 		return f;
 	}
 	public static int DateFromJulian (int date){
-		int f = 0;
-		return f;
-	}
-	public static int daysinbetween(int fdate, int sdate){
 		int f = 0;
 		return f;
 	}
