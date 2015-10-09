@@ -42,7 +42,6 @@ public class ex9 {
 	}
 	public static int daysinbetween(int fdate, int sdate){
 		int f = 0;
-		
 		return f;
 	}
 }
