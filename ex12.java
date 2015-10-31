@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 // Nikolay Pomytkin
 // Lab #1
 // September 29 2015
-public class Lab1 {
+public class ex12 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -34,9 +34,9 @@ public class Lab1 {
                 else if (dfines[i] < smallest)
                 {
                     smallest = dfines[i];
-                }     
+                }
         }
-		System.out.println(firstname + " " + middlename + " " + lastname + ", Your total fine is " + totalfine + ". Your smallest fine is: " + smallest + " and your largest fine is: " + largest + ".");	
+		System.out.println(firstname + " " + middlename + " " + lastname + ", Your total fine is " + totalfine + ". Your smallest fine is: " + smallest + " and your largest fine is: " + largest + ".");
 	}
 
 }
