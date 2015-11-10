@@ -25,3 +25,5 @@ Display the SQUARE ROOT of the sum of all 5 numbers
   - Write a Java application that reads in FIVE characters and displays themCombined along with their total ASCII value. Also display on a separate line the last character entered along with its ASCII Value.
 - [Ex 14](alarmclock.java) : [Alarm Clock class](https://docs.google.com/document/d/1YGa0F5Go251yL79I3GazrshESDtKaAPeZyt3E3dzu1U)
 - [Ex 15](person.java) : [Person class](https://docs.google.com/document/d/1noAV0di56TQUkAjPSsNuifOF3fzwutNxdBiBR7mpgmk/edit)
+- [Ex 16](apartment.java) : [Apartment class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzU4NDY2MDY5/details)
+- [Ex 17](circle.java) : [Circle class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzY0NTgyMjYz/details)
