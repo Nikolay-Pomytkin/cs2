@@ -1,49 +1,46 @@
+package circle;
+
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
-public class circle {
-	public static void main(String[] args) {
-		System.out.println("Would you like to construct your circle based circumference, radius, or diameter?");
-		System.out.println("(Type 1 for circumference, 2 for radius, 3 for diameter)");
-		Scanner scan = new Scanner(System.in);
-		circle c = new circle();
-		c.entryType = scan.nextInt();
-		if(c.entryType == 1){
-			System.out.println("Enter the circumfrence and name of your circle:");
-			System.out.println("Name:");
-			c.name = scan.nextLine();
-			System.out.println("Circumfrence:");
-			c.circumference = scan.nextDouble();
-		} else if (c.entryType == 2){
-			System.out.println("Enter the radius and name of your circle:");
-			System.out.println("Name:");
-			c.name = scan.nextLine();
-			System.out.println("Radius:");
-			c.radius = scan.nextDouble();
-		} else if (c.entryType == 3){
-			System.out.println("Enter the diameter and name of your circle.");
-			System.out.println("Name:");
-			c.name = scan.nextLine();
-			System.out.println("Diameter:");
-			c.diameter = scan.nextDouble();
-		}
-	}
-	private double radius;
-	private double area;
-	private double diameter;
-	private double circumference;
-	private String name;
-	private int entryType;
-	public circle(){
-		name="circle";
-	}
-	public circle(double r, String n){
-	}
-	public void setName(String n){
-		name = n;
-	}
-	public void setRadius(double r){
-		radius = r;
-	}
-	public void setCircumference(double r){
-		
-	}
+import java.util.Random;
+public class circle
+{
+    public static void main(String[] args) throws FileNotFoundException
+    {
+        File file = new File("/Users/18pomytkinn/NetBeansProjects/circle/src/circle/names.txt");
+        Scanner sc = new Scanner(file);
+        circle c[];
+        c = new circle[100];
+        for(int i = 0; i < 100; i++)   
+        {   
+            c[i] = new circle(sc.next(), 2);
+            System.out.println(c[i].name);
+        }
+    }
+    // Class variables
+    private String name;
+    private double circumference, area, radius, diameter;
+    // default constructor
+    public circle()
+    {
+        name = "normal circle";
+        radius = 1;
+        area = 3.1415;
+        diameter = 2;
+        circumference = 6.283;
+    }
+    // overloaded constructor
+    public circle(String n, int r)
+    {
+        name = n;
+        this.setVars(r);
+    }
+    // method to set all variables based on entered radius
+    public void setVars(int r){
+        radius = r;
+        area = 3.1415 * r * r;
+        diameter = 2 * r;
+        circumference = 2 * r * 3.1415;
+    }
 }
