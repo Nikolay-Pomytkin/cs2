@@ -16,3 +16,4 @@ Saving Exercises for Comp Sci 2 MHS
 - [Ex 16](ex/apartment.java) : [Apartment class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzU4NDY2MDY5/details)
 - [Ex 17](ex/circle.java) : [Circle class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzY0NTgyMjYz/details)
 - [Quiz 18](ex/tree.java) : [Quiz on Classes - Tree class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MjI2ODcxODg2/details)
+- [Ex 19](ex/diceroller.java) : [Dice Roller](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjI3NjI4NjM5/details)
