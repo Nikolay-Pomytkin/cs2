@@ -46,6 +46,13 @@ public class Aone {
         }
         System.out.println("The sum of the integers is: " + (i1 + i2));
         System.out.println("The sum of the doubles is: " + (d1 + d2));
-        System.out.println("The product of the integers is:" + (i1 * i2));
+        System.out.println("The product of the integers is: " + (i1 * i2));
+        System.out.println("The product of the doubles is: " + (d1 * d2));
+        System.out.println("The difference of the integers is: " + (i1 - i2));
+        System.out.println("The difference of the doubles is: " + (d1 - d2));
+        System.out.println("The quotient of the integers is: " + ((double)i1 / i2));
+        System.out.println("The quotient of the doubles is: " + (d1 / d2));
+        
+
     }
 }
