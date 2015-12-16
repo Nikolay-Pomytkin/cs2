@@ -24,4 +24,4 @@ Saving Java exercises from Comp Sci 2 class
   - [Clean Products Corp](ex/cleanproductscorp.java)
   - [Gas 'n Clean](ex/gasnclean.java)
   - [Holiday](holiday.java)
-- [Ex 21](cards.java) : [Playing Cards E-quiz](https://docs.google.com/document/d/1ZnD_LlrMdgMaTXgpe3GgD4q0-fcrxFxaoVYPgQklle0/edit)
+- [Ex 21](ex/cards.java) : [Playing Cards E-quiz](https://docs.google.com/document/d/1ZnD_LlrMdgMaTXgpe3GgD4q0-fcrxFxaoVYPgQklle0/edit)
