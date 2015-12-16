@@ -19,5 +19,5 @@ Saving Exercises for Comp Sci 2 MHS
 - [Ex 19](ex/diceroller.java) : [Dice Roller](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjI3NjI4NjM5/details)
 - [Ex 20](ex/fastfood.java) : [Conditionals - FastFood](https://docs.google.com/document/d/1JvpOuC8BX1l4NWe-SuQ1cS7rQZqeBztIPWw8sXJjOpE/edit)
 - [Ex 21](ex/simplecalculator.java) : [Conditionals - SimpleCalculator](https://docs.google.com/document/d/1JvpOuC8BX1l4NWe-SuQ1cS7rQZqeBztIPWw8sXJjOpE/edit)
-- [Ex 22]
-- [Ex 23]
+- [Ex 22]()
+- [Ex 23](ex/cleanproductscorp.java) : [Conditionals - CleanProductsCorp](https://docs.google.com/document/d/1JvpOuC8BX1l4NWe-SuQ1cS7rQZqeBztIPWw8sXJjOpE/edit)
