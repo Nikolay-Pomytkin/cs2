@@ -11,11 +11,11 @@ class CleanProductsCorp
 		System.out.println("CPC (Clean Products Corporation): Gross pay calculator");
 		System.out.println("Enter your position (S/R), followed by number of products sold (W/S/C):");
 		Scanner scan = new Scanner(System.in);
-		String stats = scan.next();
+		String stats = scan.nextLine();
 		String[] statsA;
 		statsA = new String[4];
 		statsA = stats.split(" ", 4);
-		double totalsales = (Integer.parseInt(statsA[1]) * wax)+(Integer.parseInt(statsA[2]) * soap)+(Integer.parseInt(statsA[3]) * windowCleaner);
+		double totalsales = (Integer.parseInt(statsA[1]) * wax) + (Integer.parseInt(statsA[2]) * soap) + (Integer.parseInt(statsA[3]) * windowCleaner);
 		double commision, bonus, grossPay;
 		if(statsA[0].equals("S")){
 			System.out.println("Sales from wax: $" + (Integer.parseInt(statsA[1]) * wax));
