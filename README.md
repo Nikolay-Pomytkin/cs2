@@ -3,7 +3,6 @@ Saving Java exercises from Comp Sci 2 class
 ### Labs and Exercises
 - [Ex 1](ex/ex1.java) -- [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
 - [Ex 2](ex/ex2.java) -- [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details)
-- [Ex 2 Part 2](ex/ex2-part2.java)
 - [Ex 3](ex/ex3.java) -- [No Scanner or println - JOptionPane](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc0NTAwNjE2/details)
 - [Ex 4](ex/ex4.java) -- [Over 18](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc1MTY2NTc4/details)
 - [Ex 5](ex/ex5.java) -- [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details)
