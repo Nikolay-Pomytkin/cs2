@@ -1,85 +1,103 @@
-import java.util.Calendar;
-import java.util.Date;
+package holiday;
+
 import java.util.Scanner;
+
 public class holiday {
-	public static void main(String[] args) {
-		//Labor Day (first Monday in september) Memorial Day (last Monday in may) Thanksgiving (4th Thursday in November) Election Day (first Tuesday after the first Monday in November).
-		System.out.println("What year would you like to calculate holiday dates for?");
-		Scanner scan = new Scanner(System.in);
-		int year = scan.nextInt();
-		String pastFuture;
-		if(year < Calendar.getInstance().get(Calendar.YEAR)){
-			pastFuture = "took place";
-		} else {
-			pastFuture = "will take place";
-		}
-	    System.out.println(year + ": Labor Day " + pastFuture  +" on " + laborDay(year).getMonth() + "-" + laborDay(year).getMonth() + "-" + year);
-	    System.out.println(year + ": Memorial Day " + pastFuture  +" on " + memorialDay(year).getMonth() + "-" + memorialDay(year).getMonth() + "-" + year);  
-	    System.out.println(year + ": Thanksgiving Day " + pastFuture  +" on " + thanksgiving(year).getMonth() + "-" + thanksgiving(year).getMonth() + "-" + year);
-	    }
-    public static Date laborDay(int nYear) {
-        int month = 8; // September
-        Date dL = new Date(nYear, 9, 1);
-        int num = dL.getDay();
-        switch(num) {
-          case 0 : // Sunday
-            return new Date(nYear, month, 2);
-          case 1 : // Monday
-            return new Date(nYear, month, 7);
-          case 2 : // Tuesday
-            return new Date(nYear, month, 6);
-          case 3 : // Wednesday
-            return new Date(nYear, month, 5);
-          case 4 : // Thursday
-            return new Date(nYear, month, 4);
-          case 5 : // Friday
-            return new Date(nYear, month, 3);
-          default : // Saturday
-            return new Date(nYear, month, 2);
+  public holiday() {}
+	
+  static final int daysInMonth[] = {
+    31, 28, 31, 30, 31, 30,
+    31, 31, 30, 31, 30, 31
+  };
+  static final int daysToMonth[] = {
+    0,  31,  59,  90, 120, 151,
+    181, 212, 243, 273, 304, 334
+  };
+  static final String dayName[] ={
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  };
+  static final int DAY0 = 1;
+  static public void main(String[] args) {
+    new holiday();
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Please enter a year:");
+    int year = sc.nextInt();
+    if (year < 1900 || year >= 3000) {
+      System.out.println("Invalid input.");
+      System.exit(1);
+    }
+    int weekday = DayOfWeek(9, 1, year); 
+    int day = (8 - weekday) % 7 + 1;
+    System.out.println("Labor Day = September " + day );
+	
+    // Election Day = first Tuesday after first Monday in November:
+    weekday = DayOfWeek(11, 1, year);
+    day = (8 - weekday) % 7 + 1;       
+    day++;
+    System.out.println("Election Day = November " + day );
+
+    // Thanksgiving = fourth Thursday in November:
+    weekday = DayOfWeek(11, 1, year);   
+    day = (11 - weekday) % 7 + 1;       
+    day += 21;        
+    System.out.println("Thanksgiving = November " + day );
+
+    // Memorial Day  = last Monday in May:
+    weekday = DayOfWeek(5, 31, year);  
+    day = 31 - (weekday + 6) % 7;      
+    System.out.println("Memorial Day = May " + day );
+  }
+  static boolean leapYear (int year) {
+  //  true, if year is divisible by 4, and ...
+    return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+  }
+  
+  // returns true if month-day-year is a valid date 
+  static boolean ValidDate (int month, int day, int year) {
+    boolean valid = false;  // First assume the date is invalid.
+    int days;
+
+    if (year >= 1900 && year <= 2999 && month >= 1 && month <= 12) {
+      // Get the number of days in this month
+      days = daysInMonth[month-1]; 
+      // If February of a leap year -- increment the number of days in this month:
+        if (month == 2 && leapYear(year)) {
+          days++;
         }
-      }
-      
-      public static Date memorialDay(int nYear) {
-        int nMonth = 4; //May
-        Date dM= new Date(nYear, 4, 31);
-        int num = dM.getDay();
-        switch(num) {
-          case 0 : // Sunday
-            return new Date(nYear, nMonth, 25);
-          case 1 : // Monday
-            return new Date(nYear, nMonth, 31);
-          case 2 : // Tuesday
-            return new Date(nYear, nMonth, 30);
-          case 3 : // Wednesday
-            return new Date(nYear, nMonth, 29);
-          case 4 : // Thursday
-            return new Date(nYear, nMonth, 28);
-          case 5 : // Friday
-            return new Date(nYear, nMonth, 27);
-          default : // Saturday
-            return new Date(nYear, nMonth, 26);
+	if (day >= 1 && day <= days) {
+	  valid = true;
         }
-      }
-      
-      public static Date thanksgiving(int nYear) {
-        int month = 10; // November
-        Date date = new Date(nYear, 10, 1);
-        int num = date.getDay();
-        switch(num) {
-          case Calendar.SUNDAY :
-            return new Date(nYear, month, 26);
-          case Calendar.MONDAY :
-            return new Date(nYear, month, 25);
-          case Calendar.TUESDAY :
-            return new Date(nYear, month, 24);
-          case Calendar.WEDNESDAY :
-            return new Date(nYear, month, 23);
-          case Calendar.THURSDAY :
-            return new Date(nYear, month, 22);
-          case Calendar.FRIDAY :
-            return new Date(nYear, month, 28);
-          default : // Saturday
-            return new Date(nYear, month, 27);
+    }
+    return valid;
+  }
+
+   static long DaysSince1900 (int month, int day, int year) {
+     long days;
+
+     if (year == 1900)
+       days = 0;
+     else {
+       days = (long)year - (long)1900 * 365
+         + (year - 1901) / 4       
+	 - (year - 1901) / 100     
+	 + (year - 1601) / 400;  
+	days += daysToMonth[month-1];
+  	if (leapYear(year) && month > 2) {
+          days++;
         }
-}
+	days += day - 1;
+     }
+
+     return days;
+  }
+  
+  static int DayOfWeek (int month, int day, int year) {
+    return (int)((DAY0 + DaysSince1900(month, day, year)) % 7);
+  }
 }
