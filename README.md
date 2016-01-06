@@ -24,3 +24,4 @@ Saving Java exercises from Comp Sci 2 class
   - [Gas 'n Clean](ex/gasnclean.java)
   - [Holiday](ex/holiday.java)
 - [Ex 21](ex/cards.java) -- Playing Cards E-quiz
+- [Ex 22] -- Store package
