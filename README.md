@@ -28,3 +28,7 @@ Saving Java exercises from Comp Sci 2 class
   - [Part 1](ex/store/store.java) -- Store class
   - [Part 2](ex/store/item.java) -- Item class
   - [Part 3](ex/store/run.java) -- Run class
+- [Ex 23](ex/groupStore) -- [Store package](https://docs.google.com/document/d/1o6luj_aIbNKxP1_nJheMKPCx4LSKTuIabqh5vjdwmw4/edit)
+  - [Part 1](ex/groupStore/store.java) -- Store class
+  - [Part 2](ex/groupStore/item.java) -- Item class
+  - [Part 3](ex/groupStore/storeproject.java) -- project class
