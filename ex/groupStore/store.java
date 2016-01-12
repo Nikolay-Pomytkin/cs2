@@ -1,25 +1,30 @@
-public class Store {
+package store;
+
+
+public class store {
   private String location;
-  private Item[] items;
+  private item[] items;
   private String owner;
   private String phone_number;
+  private String name;
   
-  public Store() {
+  public store() {
     location = "NYC";
-    items = new Item [3];
+    items = new item [3];
     owner = "Jon";
     phone_number = "123-456-7890";
   }
   
-  public Store(String location, Item[] items, String owner, String phone_number) {
+  public store (String location, item[] items, String owner, String phone_number, String name) {
     location = location;
     items = items;
     owner = owner;
     phone_number = phone_number;
+    name = name;
   }
   
   // get
-  public Item[] getItems() {
+  public item[] getItems() {
     return items;
   }
   
@@ -36,19 +41,19 @@ public class Store {
   }
   
   // set
-  public static void setItems(Item[] items) {
+  public static void setItems(item[] items) {
     items = items;
   }
-  
   public static void setLocation(String location) {
     location = location;
   }
-  
   public static void setOwner(String owner) {
     owner = owner;
   }
-  
   public static void setPhoneNumber(String phone_number) {
     phone_number = phone_number;
+  }
+  public static void setName(String name) {
+	  name = name;
   }
 }
