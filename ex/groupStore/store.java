@@ -1,59 +1,59 @@
-package store;
+package storeproject;
 
-
-public class store {
-  private String location;
-  private item[] items;
-  private String owner;
-  private String phone_number;
-  private String name;
-  
-  public store() {
-    location = "NYC";
-    items = new item [3];
-    owner = "Jon";
-    phone_number = "123-456-7890";
-  }
-  
-  public store (String location, item[] items, String owner, String phone_number, String name) {
-    location = location;
-    items = items;
-    owner = owner;
-    phone_number = phone_number;
-    name = name;
-  }
-  
-  // get
-  public item[] getItems() {
-    return items;
-  }
-  
-  public String getLocation() {
-    return location;
-  }
-  
-  public String getOwner() {
-    return owner;
-  }
-  
-  public String getPhoneNumber() {
-    return phone_number;
-  }
-  
-  // set
-  public static void setItems(item[] items) {
-    items = items;
-  }
-  public static void setLocation(String location) {
-    location = location;
-  }
-  public static void setOwner(String owner) {
-    owner = owner;
-  }
-  public static void setPhoneNumber(String phone_number) {
-    phone_number = phone_number;
-  }
-  public static void setName(String name) {
-	  name = name;
-  }
+public class Store {
+	private String location;
+	private Item [] items;
+	private String owner;
+	private String phone_number;
+	private String name;
+	  
+	public Store() {
+            location = "NYC";
+	    items = new Item [15];
+	    owner = "Jon";
+	    phone_number = "123-456-7890";
+	}
+	  
+	public Store (String l, Item[] i, String o, String p, String n) {
+	    location = l;
+	    items = i;
+	    owner = o;
+	    phone_number = p;
+	    name = n;
+	 }
+	 public Item getItem(int id){
+             return items[id];
+         }
+	 public Item[] getItems() {
+	    return items;
+	 }
+	 public String getLocation() {
+	    return location;
+	 }
+	 public String getOwner() {
+	    return owner;
+	 }	  
+	 public String getPhoneNumber() {
+	    return phone_number;
+	 }
+	 //Set 1 item in a certain place in the array
+	 public void setItem(Item i, int z){
+		 items[z] = i;
+	 }
+	 //Set an array of multiple items
+	 public void setItems(Item[] i) {
+	    items = i;
+	 }
+	 public void setLocation(String l) {
+	    location = l;
+	 }
+	 public void setOwner(String o) {
+	    owner = o;
+	 }
+	 public void setPhoneNumber(String p) {
+	    phone_number = p;
+	 }
+	 public void setName(String n) {
+		  name = n;
+	 }
 }
