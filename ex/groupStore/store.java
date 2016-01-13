@@ -8,10 +8,10 @@ public class Store {
 	private String name;
 	  
 	public Store() {
-            location = "NYC";
+            location = "Nigeria";
 	    items = new Item [15];
-	    owner = "Jon";
-	    phone_number = "123-456-7890";
+	    owner = "Chuba Akpom";
+	    phone_number = "173-8173-81738";
 	}
 	  
 	public Store (String l, Item[] i, String o, String p, String n) {
