@@ -1,30 +1,30 @@
 package storeproject;
 
+import java.util.ArrayList;
+
 public class Store {
 	private String location;
-	private Item [] items;
+	ArrayList<Item> items = new ArrayList<Item>();
 	private String owner;
 	private String phone_number;
 	private String name;
 	  
 	public Store() {
-            location = "Nigeria";
-	    items = new Item [15];
-	    owner = "Chuba Akpom";
-	    phone_number = "173-8173-81738";
+            location = "USA";
+	    owner = "Nik";
+	    phone_number = "173-817-3817";
 	}
 	  
 	public Store (String l, Item[] i, String o, String p, String n) {
 	    location = l;
-	    items = i;
 	    owner = o;
 	    phone_number = p;
 	    name = n;
 	 }
 	 public Item getItem(int id){
-             return items[id];
+             return items.get(id);
          }
-	 public Item[] getItems() {
+	 public ArrayList<Item> getItems() {
 	    return items;
 	 }
 	 public String getLocation() {
@@ -38,12 +38,9 @@ public class Store {
 	 }
 	 //Set 1 item in a certain place in the array
 	 public void setItem(Item i, int z){
-		 items[z] = i;
+		 items.add(z, i);
 	 }
 	 //Set an array of multiple items
-	 public void setItems(Item[] i) {
-	    items = i;
-	 }
 	 public void setLocation(String l) {
 	    location = l;
 	 }
