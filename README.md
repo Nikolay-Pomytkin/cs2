@@ -3,30 +3,30 @@ Saving Java exercises from Comp Sci 2 class
 ### Labs and Exercises
 | Project        | Java           | Python  |
 | ------------- |:-------------:| -----:|
-| [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details) | right-aligned | $1600 |
-| [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details) | centered      |   $12 |
-| [No Scanner or println - JOptionPane](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc0NTAwNjE2/details) | are neat      |    $1 |
-| [Over 18](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc1MTY2NTc4/details) | are neat      |    $1 |
-| [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details) | are neat      |    $1 |
-| [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details) | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
+| [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details) | [Ex 1](ex/ex1.java) | none |
+| [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details) | [Ex 2](ex/ex2.java) |   none |
+| [No Scanner or println - JOptionPane](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc0NTAwNjE2/details) | [Ex 3](ex/ex3.java) |    none |
+| [Over 18](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc1MTY2NTc4/details) | are neat      |    none |
+| [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details) | are neat      |    none |
+| [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details) | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
+| zebra stripes | are neat      | none |
 
 - [Ex 1](ex/ex1.java) -- [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
 - [Ex 2](ex/ex2.java) -- [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details)
