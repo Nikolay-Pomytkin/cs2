@@ -17,13 +17,7 @@ Saving Java exercises from Comp Sci 2 class
 | [Circle class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzY0NTgyMjYz/details)| [Ex 17](ex/circle.java) | none |
 | [Quiz on Classes - Tree class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MjI2ODcxODg2/details)| [Quiz 18](ex/tree.java) | none |
 | [Dice Roller](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjI3NjI4NjM5/details) | [Ex 19](ex/diceroller.java) | none |
-| Ex 20 : [Conditionals](https://docs.google.com/document/d/1JvpOuC8BX1l4NWe-SuQ1cS7rQZqeBztIPWw8sXJjOpE/edit) | 
-  - [FastFood](ex/fastfood.java)
-  - [Simple Calculator](ex/simplecalculator.java)
-  - [Right Triangle](ex/righttriangle.java)
-  - [Clean Products Corp](ex/cleanproductscorp.java)
-  - [Gas 'n Clean](ex/gasnclean.java)
-  - [Holiday](ex/holiday.java) | none |
+| Ex 20 : [Conditionals](https://docs.google.com/document/d/1JvpOuC8BX1l4NWe-SuQ1cS7rQZqeBztIPWw8sXJjOpE/edit) | [FastFood](ex/fastfood.java), [Simple Calculator](ex/simplecalculator.java), [Right Triangle](ex/righttriangle.java), [Clean Products Corp](ex/cleanproductscorp.java), [Gas 'n Clean](ex/gasnclean.java), [Holiday](ex/holiday.java) | none |
 | zebra stripes | are neat      | none |
 | zebra stripes | are neat      | none |
 | zebra stripes | are neat      | none |
