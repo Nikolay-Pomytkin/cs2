@@ -9,15 +9,13 @@ Saving Java exercises from Comp Sci 2 class
 | [Over 18](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc1MTY2NTc4/details) | [Ex 4](ex/ex4.java) |    none |
 | [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details) | [Ex 5](ex/ex5.java)  |    none |
 | [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details) | [Ex 6](ex/ex6.java) | none |
-| [Ex 11](ex/ex11.java) | Simple function practice | none |
-| [Ex 12 - Lab 1](ex/ex12.java) | Library Fine | none |
-| [Ex 14](ex/alarmclock.java) | [Alarm Clock class](https://docs.google.com/document/d/1YGa0F5Go251yL79I3GazrshESDtKaAPeZyt3E3dzu1U) | none |
-| [Ex 15](ex/person.java) | [Person class](https://docs.google.com/document/d/1noAV0di56TQUkAjPSsNuifOF3fzwutNxdBiBR7mpgmk/edit) | none |
-| [Ex 16](ex/apartment.java) | [Apartment class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzU4NDY2MDY5/details) | none |
-| [Ex 17](ex/circle.java) | [Circle class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzY0NTgyMjYz/details)
- | none |
-| [Quiz 18](ex/tree.java) | [Quiz on Classes - Tree class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MjI2ODcxODg2/details)
- | none |
+| Simple function practice | [Ex 11](ex/ex11.java) | none |
+| Library Fine | [Ex 12 - Lab 1](ex/ex12.java) | none |
+| [Alarm Clock class](https://docs.google.com/document/d/1YGa0F5Go251yL79I3GazrshESDtKaAPeZyt3E3dzu1U) | [Ex 14](ex/alarmclock.java) | none |
+| [Person class](https://docs.google.com/document/d/1noAV0di56TQUkAjPSsNuifOF3fzwutNxdBiBR7mpgmk/edit) | [Ex 15](ex/person.java) | none |
+| [Apartment class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzU4NDY2MDY5/details) | [Ex 16](ex/apartment.java) | none |
+| [Circle class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzY0NTgyMjYz/details)| [Ex 17](ex/circle.java) | none |
+| [Quiz on Classes - Tree class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MjI2ODcxODg2/details)| [Quiz 18](ex/tree.java) | none |
 | zebra stripes | are neat      | none |
 | zebra stripes | are neat      | none |
 | zebra stripes | are neat      | none |
