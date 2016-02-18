@@ -3,19 +3,21 @@ Saving Java exercises from Comp Sci 2 class
 ### Labs and Exercises
 | Project        | Java           | Python  |
 | ------------- |:-------------:| -----:|
-| [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details) | [Ex 1](ex/ex1.java) | none |
-| [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details) | [Ex 2](ex/ex2.java) |   none |
-| [No Scanner or println - JOptionPane](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc0NTAwNjE2/details) | [Ex 3](ex/ex3.java) |    none |
-| [Over 18](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc1MTY2NTc4/details) | are neat      |    none |
-| [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details) | are neat      |    none |
-| [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details) | are neat      | none |
-| zebra stripes | are neat      | none |
-| zebra stripes | are neat      | none |
-| zebra stripes | are neat      | none |
-| zebra stripes | are neat      | none |
-| zebra stripes | are neat      | none |
-| zebra stripes | are neat      | none |
-| zebra stripes | are neat      | none |
+| [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details) | [Ex 1](ex/ex01.java) | none |
+| [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details) | [Ex 2](ex/ex02.java) |   none |
+| [No Scanner or println - JOptionPane](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc0NTAwNjE2/details) | [Ex 3](ex/ex03.java) |    none |
+| [Over 18](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc1MTY2NTc4/details) | [Ex 4](ex/ex4.java) |    none |
+| [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details) | [Ex 5](ex/ex5.java)  |    none |
+| [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details) | [Ex 6](ex/ex6.java) | none |
+| [Ex 11](ex/ex11.java) | Simple function practice | none |
+| [Ex 12 - Lab 1](ex/ex12.java) | Library Fine | none |
+| [Ex 14](ex/alarmclock.java) | [Alarm Clock class](https://docs.google.com/document/d/1YGa0F5Go251yL79I3GazrshESDtKaAPeZyt3E3dzu1U) | none |
+| [Ex 15](ex/person.java) | [Person class](https://docs.google.com/document/d/1noAV0di56TQUkAjPSsNuifOF3fzwutNxdBiBR7mpgmk/edit) | none |
+| [Ex 16](ex/apartment.java) | [Apartment class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzU4NDY2MDY5/details) | none |
+| [Ex 17](ex/circle.java) | [Circle class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzY0NTgyMjYz/details)
+ | none |
+| [Quiz 18](ex/tree.java) | [Quiz on Classes - Tree class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MjI2ODcxODg2/details)
+ | none |
 | zebra stripes | are neat      | none |
 | zebra stripes | are neat      | none |
 | zebra stripes | are neat      | none |
@@ -28,20 +30,6 @@ Saving Java exercises from Comp Sci 2 class
 | zebra stripes | are neat      | none |
 | zebra stripes | are neat      | none |
 
-- [Ex 1](ex/ex1.java) -- [Math and Scanner](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTkzNTcyNjQ4/details)
-- [Ex 2](ex/ex2.java) -- [Scanner, Math.Min + Max](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTk0NDE0NTI2/details)
-- [Ex 3](ex/ex3.java) -- [No Scanner or println - JOptionPane](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc0NTAwNjE2/details)
-- [Ex 4](ex/ex4.java) -- [Over 18](https://classroom.google.com/c/MTUwMzY4NDI1/a/MTc1MTY2NTc4/details)
-- [Ex 5](ex/ex5.java) -- [Examine](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjQxMjg1MzIy/details)
-- [Ex 6](ex/ex6.java) -- [Exact Age Calculator](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjU3NTQ0NTQw/details)
-- [Ex 11](ex/ex11.java) --  Simple function practice
-- [Ex 12 - Lab 1](ex/ex12.java) -- Library Fine
-- [Ex 13 - Lab 2](ex/ex13.java) -- Characters and ASCII values
-- [Ex 14](ex/alarmclock.java) -- [Alarm Clock class](https://docs.google.com/document/d/1YGa0F5Go251yL79I3GazrshESDtKaAPeZyt3E3dzu1U)
-- [Ex 15](ex/person.java) -- [Person class](https://docs.google.com/document/d/1noAV0di56TQUkAjPSsNuifOF3fzwutNxdBiBR7mpgmk/edit)
-- [Ex 16](ex/apartment.java) -- [Apartment class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzU4NDY2MDY5/details)
-- [Ex 17](ex/circle.java) -- [Circle class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MzY0NTgyMjYz/details)
-- [Quiz 18](ex/tree.java) -- [Quiz on Classes - Tree class](https://classroom.google.com/u/0/c/MTUwMzY4NDI1/a/MjI2ODcxODg2/details)
 - [Ex 19](ex/diceroller.java) -- [Dice Roller](https://classroom.google.com/c/MTUwMzY4NDI1/a/MjI3NjI4NjM5/details)
 - Ex 20 : [Conditionals](https://docs.google.com/document/d/1JvpOuC8BX1l4NWe-SuQ1cS7rQZqeBztIPWw8sXJjOpE/edit)
   - [FastFood](ex/fastfood.java)
