@@ -22,4 +22,5 @@ Saving Java exercises from Comp Sci 2 class
 | [Store package](https://docs.google.com/document/d/1PtIaNPmbwsndEA6wnyBLkHf2pZjwWYmoWAAcPlMunBA/edit) | [Ex 22](ex/store) | none |
 | [Store package](https://docs.google.com/document/d/1o6luj_aIbNKxP1_nJheMKPCx4LSKTuIabqh5vjdwmw4/edit) | [Ex 23](ex/groupStore) | none |
 | [Loop Practices](https://docs.google.com/document/d/1O3KTFvQxcXkzmKY9wK4DV0qghnhjU-9UshXDluTf-W0/edit) | Fast food | [Fast food](python/fastFoodloop.py) |
+|[File IO Exercises](https://classroom.google.com/u/1/c/MTUwMzY4NDI1/a/MTI1NjQzMTY4Mlpa/details)|[Ex 24](ex/ex24.java), [Ex 25](ex/ex25.java), [Ex 26](ex/ex26.java), [Ex 27](ex/ex27.java), [Ex 28](ex/ex28.java)| none |
 
